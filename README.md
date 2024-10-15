@@ -27,7 +27,7 @@ Obfuscated reverse-shell shellcode aimed to bypass signature-based antivirus
       $sudo msfconsole
       
 
-  To run listener on attackers machine:
+  To run a listener on attackers machine:
       
       $msfconsole
       $use exploit/multi/handler
