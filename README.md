@@ -10,7 +10,7 @@ Obfuscated reverse-shell shellcode aimed to bypass signature-based antivirus
     
     Russell:
       - created GitHub repo and uploaded the research paper as well as our proposal.
-      - created and uploaded payload-22.c via msfvenom which connects to attacker's IP (Windows antivirus detects it immediately and does not allow execution)
+      - created and uploaded payload-22.c
 
   To create a payload (using kali):
             
