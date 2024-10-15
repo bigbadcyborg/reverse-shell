@@ -6,7 +6,8 @@ Obfuscated reverse-shell shellcode aimed to bypass signature-based antivirus
 
 # Change Log:
 
-  10/14/2024
+10/14/2024
+    
     Russell:
       - created GitHub repo and uploaded the research paper as well as our proposal.
       - created and uploaded payload-22.c via msfvenom which connects to attacker's IP (Windows antivirus detects it immediately and does not allow execution)
