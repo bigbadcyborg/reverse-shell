@@ -2,10 +2,17 @@
 Obfuscated reverse-shell shellcode aimed to bypass signature-based antivirus
 
 # 10/16/2024
-  Steps needed in the c program:
-      - Download shellcode payload
+  Steps needed in the main c program:
+  
+      - Download shellcode payload (HTTP GET REQUEST)
+      
       - parse shellcode properly:
           - there should be no Null bytes (0x00), Line feeds (0x0A), carriage returns (0x0D), or Form feeds (0x0C)
+          - only the shellcode instructions stored into char* memBuffer. 
+          - then, loop through memBuffer[] and save contents as hexidecimal machine code to the dynamically 
+              allocated unsigned char buff[]
+              
+      - execute machine code within buff[]
 
 
   # 10/15/2024
