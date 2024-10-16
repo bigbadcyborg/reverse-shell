@@ -19,7 +19,7 @@ Obfuscated reverse-shell shellcode aimed to bypass signature-based antivirus
     Right now, the main.cpp downloads the shellcode, converts it to dynamic allocated memory that is reconizable to the system as hexidecimal instructions , and prints the the converted shellcode.
     
     Here is the shellcode before conversion:
-    ![My Image](payload before conversion.png)
+    [(payload before conversion.png)](https://github.com/bigbadcyborg/reverse-shell/blob/3991d8ea2042628ceb78075d79b10380ca27fbd5/payload%20before%20conversion.png)
 
     Here is the shellcode after conversion:
 
