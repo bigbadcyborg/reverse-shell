@@ -22,7 +22,7 @@ Obfuscated reverse-shell shellcode aimed to bypass signature-based antivirus
   ![Before](payload-before-conversion.png)
 
   Here is the shellcode after conversion:
-  ![After}(payload-after-conversion-raw.png)
+  ![After](payload-after-conversion-raw.png)
 
 
     We still need to figure out how to execute this shellcode so that it connects the user to the attacker.
