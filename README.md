@@ -4,7 +4,8 @@ Obfuscated reverse-shell shellcode aimed to bypass signature-based antivirus
 # 10/16/2024
   Steps needed in the c program:
       - Download shellcode payload
-      - parse shellcode properly (
+      - parse shellcode properly:
+          - there should be no Null bytes (0x00), Line feeds (0x0A), carriage returns (0x0D), or Form feeds (0x0C)
 
 
   # 10/15/2024
