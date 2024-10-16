@@ -18,10 +18,11 @@ Obfuscated reverse-shell shellcode aimed to bypass signature-based antivirus
 
     Right now, the main.cpp downloads the shellcode, converts it to dynamic allocated memory that is reconizable to the system as hexidecimal instructions , and prints the the converted shellcode.
     
-    Here is the shellcode before conversion:
+  Here is the shellcode before conversion:
   ![Before](payload-before-conversion.png)
 
-    Here is the shellcode after conversion:
+  Here is the shellcode after conversion:
+  ![After}(payload-after-conversion-raw.png)
 
 
     We still need to figure out how to execute this shellcode so that it connects the user to the attacker.
