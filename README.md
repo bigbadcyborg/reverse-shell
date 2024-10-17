@@ -6,9 +6,14 @@ Russell:
 
 Uploaded winsock-tcp-8448.cpp and winsock-tcp-8448.exe
 
-    These are working reverse shells, but they are easily detected as malware. Obfuscation needed.
+    These are working reverse shells, but they are easily detected as malware. Obfuscation needed. 
         -to listen for winsock reverse shell as attacker: 
             $nc -nvlp 8448
+
+    We could obfuscate using caesar cipher. It would go undectected by windows security; however, not completely undetected
+    on virustotal. 
+    (see https://www.youtube.com/watch?v=hjNLylCAmBo&list=PLT3EmOikjcyY2t6zVJT7rSB1sqK2IMq4e&index=2&ab_channel=RedSiege)
+    
 
 # 10/16/2024
 Russell:
