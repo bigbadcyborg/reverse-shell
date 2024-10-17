@@ -16,7 +16,7 @@ Obfuscated reverse-shell shellcode aimed to bypass signature-based antivirus
   
   Steps needed in the main c program:
   
-      - Download shellcode payload (HTTP GET REQUEST)
+      - Download shellcode payload (HTTP GET REQUEST) OR use shellcode-tcp-8448-c.txt file in repo
       
       - parse shellcode properly:
           - there should be no Null bytes (0x00), Line feeds (0x0A), carriage returns (0x0D), or Form feeds (0x0C)
