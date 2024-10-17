@@ -55,7 +55,7 @@ Russell:
 
   Uploaded main.cpp
 
-    Right now, the main.cpp downloads the shellcode, converts it to dynamic allocated memory that is reconizable to the system as hexidecimal instructions , and prints the the converted shellcode.
+  Right now, the main.cpp downloads the shellcode, converts it to dynamic allocated memory that is reconizable to the system as hexidecimal instructions , and prints the the converted shellcode.
     
   Here is the shellcode before conversion:
   
