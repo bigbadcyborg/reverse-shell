@@ -66,7 +66,7 @@ Russell:
   ![After](payload-after-conversion-raw.png)
 
 
-    We still need to figure out how to execute this shellcode so that it connects the user to the attacker.
+  We still need to figure out how to execute this shellcode so that it connects the user to the attacker.
 
 
   # 10/15/2024
