@@ -16,6 +16,11 @@ We could obfuscate using caesar cipher. It would go undectected by windows secur
     (see https://www.youtube.com/watch?v=hjNLylCAmBo&list=PLT3EmOikjcyY2t6zVJT7rSB1sqK2IMq4e&index=2&ab_channel=RedSiege)
 
 "Jigsaw" and "Jargon" encryption techniques seem to be effective at avoiding detection. 
+
+Basically where we are at right now is we have functional reverse shell executables and a shellcode version of it. We need to create a python program
+to encrypt the shellcode. then, we need to make a c program that takes the shellcode as input, decrypts, and executes it- all without detection by antivirus.
+Check out the PDF file i uploaded Generating-Antivirus-Evasive-Executables-Using-Code-Mutation.pdf"
+It is a short and sweet explanation of what we are trying to accomplish.
     
 
 # 10/16/2024
