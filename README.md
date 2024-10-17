@@ -1,6 +1,13 @@
 # reverse-shell
 Obfuscated reverse-shell shellcode aimed to bypass signature-based antivirus algorithms.
 
+# 10/17/2024
+Russell:
+
+
+    Uploaded winsock-tcp-8448.cpp and winsock-tcp-8448.exe
+    These are working reverse shells, but they are easily detected as malware. Obfuscation needed.
+
 # 10/16/2024
 Russell:
 
