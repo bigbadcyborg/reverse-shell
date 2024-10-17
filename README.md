@@ -10,8 +10,11 @@ Russell:
 
       payload-revshell-8448.exe is a WORKING windows executable which connects to the attacker listening! It was compiled using msfvenom.
     the only down side is that it is easily detectable by antivirus (that is a good thing ethically- obviously)
+
+      Now, we could call it a day and just convert the exe to a .jpg or .pdf (see https://www.youtube.com/watch?v=cXEkSQl9wmw&ab_channel=ebolaman)
+      BUT our purposal that we execute obfuscated shellcode.
     
-      But we want to expose a day0 trojan.... so we still need to obfuscate the shellcode version of this exe that was compiled by msfvenom
+      We want to expose a day0 trojan.... so we still need to obfuscate the shellcode version of this exe that was compiled by msfvenom
     (see shellcode-tcp-8448-c.txt)
 
     This executable works so then we should be able to execute this shellcode.
