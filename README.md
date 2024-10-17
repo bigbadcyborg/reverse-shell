@@ -2,6 +2,8 @@
 Obfuscated reverse-shell shellcode aimed to bypass signature-based antivirus
 
 # 10/16/2024
+Russell:
+
   uploaded payload-revshell-8448.exe
   
   uploaded shellcode-tcp-8448-c
