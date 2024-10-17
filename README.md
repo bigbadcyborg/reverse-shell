@@ -2,6 +2,14 @@
 Obfuscated reverse-shell shellcode aimed to bypass signature-based antivirus
 
 # 10/16/2024
+  uploaded payload-revshell-8448
+
+    this is a WORKING windows executable which connects to the attacker listening!
+    the only down side is that it is easily detectable by antivirus (that is a good thing ethically- obviously)
+    but we want to expose a day0 trojan.... so we still need to obfuscate the shellcode (see shellcode-tcp-8448-c.txt)
+
+    this executable works so then we should be able to execute this shellcode.
+  
   Steps needed in the main c program:
   
       - Download shellcode payload (HTTP GET REQUEST)
