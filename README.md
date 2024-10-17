@@ -13,6 +13,8 @@ Uploaded winsock-tcp-8448.cpp and winsock-tcp-8448.exe
     We could obfuscate using caesar cipher. It would go undectected by windows security; however, not completely undetected
     on virustotal. 
     (see https://www.youtube.com/watch?v=hjNLylCAmBo&list=PLT3EmOikjcyY2t6zVJT7rSB1sqK2IMq4e&index=2&ab_channel=RedSiege)
+
+    "Jigsaw" and "Jargon" encryption techniques seem to be effective at avoiding detection. 
     
 
 # 10/16/2024
