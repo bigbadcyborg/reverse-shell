@@ -2,13 +2,16 @@
 Obfuscated reverse-shell shellcode aimed to bypass signature-based antivirus
 
 # 10/16/2024
-  uploaded payload-revshell-8448
+  uploaded payload-revshell-8448.exe
+  uploaded shellcode-tcp-8448-c
 
-    this is a WORKING windows executable which connects to the attacker listening!
+      payload-revshell-8448.exe is a WORKING windows executable which connects to the attacker listening! It was compiled using msfvenom.
     the only down side is that it is easily detectable by antivirus (that is a good thing ethically- obviously)
-    but we want to expose a day0 trojan.... so we still need to obfuscate the shellcode (see shellcode-tcp-8448-c.txt)
+    
+      But we want to expose a day0 trojan.... so we still need to obfuscate the shellcode version of this exe that was compiled by msfvenom
+    (see shellcode-tcp-8448-c.txt)
 
-    this executable works so then we should be able to execute this shellcode.
+    This executable works so then we should be able to execute this shellcode.
   
   Steps needed in the main c program:
   
