@@ -21,6 +21,9 @@ We could obfuscate using caesar cipher. It would go undectected by windows secur
 to encrypt the shellcode. then, we need to make a c program that takes the shellcode as input, decrypts, and executes it- all without detection by antivirus.
 Check out the PDF file i uploaded: "Generating-Antivirus-Evasive-Executables-Using-Code-Mutation.pdf"
 It is a short and sweet explanation of what we are trying to accomplish.
+
+
+This is a good video explanation of getting the shellcode to run: (https://www.youtube.com/watch?v=2tmUksnQiNA&ab_channel=CosmodiumCyberSecurity)
     
 
 # 10/16/2024
