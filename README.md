@@ -33,7 +33,7 @@ compiled and then muah, perfection. Works great. So now what is next to do is to
 
 
 # 10/17/2024
-Russell:<br><br>
+Russell:<br>
 
 Uploaded winsock-tcp-8448.cpp and winsock-tcp-8448.exe
 
@@ -58,7 +58,7 @@ This is a good video explanation of getting the shellcode to run: (https://www.y
     
 
 # 10/16/2024
-Russell:<br><br>
+Russell:<br>
 
   uploaded payload-revshell-8448.exe
   
