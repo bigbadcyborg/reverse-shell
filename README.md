@@ -4,8 +4,8 @@ Obfuscated reverse-shell shellcode aimed to bypass signature-based antivirus alg
 # 10/19/2024
 
 Russell:
-    Uploaded 10-19-obfuscate. This folder contains a python script which encrypts a binary file and then a stub which decrypts a binary file and then executes it. This shellcode DOES touch the disk, however; it is the first working 
-    reverse shell executable that has gone through our unique encrypt/decrypt process.<br>Virus Total scored it 11/73 security vendors detecting this malware. Not to mention Microsoft does not detect this as malware. This is a great milestone for what we are trying to accomplish and expose. What is needed next: modify the stub to retrieve the raw shellcode from a web server and then download it to dynamically 
+    Uploaded 10-19-obfuscate. This folder contains a python script which encrypts a binary file and then a stub which decrypts a binary file and then executes it. This shellcode DOES touch the disk, however; it is the first working<br> 
+    reverse shell executable that has gone through our unique encrypt/decrypt process.Virus Total scored it 11/73 security vendors detecting this malware. Not to mention Microsoft does not detect this as malware. <br>This is a great milestone for what we are trying to accomplish and expose. What is needed next: modify the stub to retrieve the raw shellcode from a web server and then download it to dynamically 
     allocated memory. This way way no obscure shellcode ever touches the disk. Then, we test on virus total and go from there.
 
 # 10/18/2024
