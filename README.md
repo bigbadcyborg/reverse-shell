@@ -1,6 +1,9 @@
 # reverse-shell
 Obfuscated reverse-shell shellcode aimed to bypass signature-based antivirus algorithms.
 
+# 10/21/2024
+Russell:<br> Not much progress made. I need to dive into the debugged program and find out whats going on with the machine code. It executes great when its on the disk but not when it is downloaded. The machine code is 100% the same.
+
 # 10/19/2024
 
 Russell:<br>
