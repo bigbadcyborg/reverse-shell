@@ -9,7 +9,7 @@ Russell:<br>Well, after 8 hours of staring at my screen lets see what progress I
     msfvenom -p windows/exec CMD=winsock-tcp-8448.exe -a x86 --platform windows -e x86/shikata_ga_nai -f c -o shellcode.c
 
 But I spent most of the time on trying to get windows to execute shellcode from virtually allocated memory. I have tested it down to the bone. Look here:
-!(payload-progress.png)
+![payload-progress](payload-progress.png)
     
 
 # 10/21/2024
