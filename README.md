@@ -10,7 +10,9 @@ Russell:<br>Well, after 8 hours of staring at my screen lets see what progress I
 
 But I spent most of the time on trying to get windows to execute shellcode from virtually allocated memory. I have tested it down to the bone. Look here:
 ![payload-progress](payload-progress.png)
-    
+
+This is a picture of the printed output from main-stub-10-29.c
+You can see the machine code is exactly what it should be. Yet, it is not being executed. Must we use the execute functions from activeXSploit.cpp? I will try this next.
 
 # 10/21/2024
 Russell:<br> Not much progress made. I need to dive into the debugged program and find out whats going on with the machine code. It executes great when its on the disk but not when it is downloaded. The machine code is 100% the same.
