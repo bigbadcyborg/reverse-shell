@@ -4,11 +4,13 @@ Obfuscated reverse-shell shellcode aimed to bypass signature-based antivirus alg
 # 10/30/2024
 Russell:<br>Huzzzaaaaahhhh! I have finally got the malicious payload to execute! It turns out a few of the shellcode bytes had been deformed from converting from hex string to hex bytes. I manually compared each byte from the debugger
 and figured this issue out. I wasnt skipping ' ' or semicolons. Even after fixing this, the executable would not function. But when I moved this executable to another folder it worked. This is very strange because I excluded microsoft defender 
-from checking both folders out. Anyways, I got it working. See main-stub-10-30.cpp. Feelsgoodman. So, whats next?
+from checking both folders out. Anyways, I got it working. See main-stub-10-30.cpp.
 ![working](huzzaaah.png)
 
 And check out the virus total results (windows does not detect it):
 ![VT](virustotal-10-30.png)
+
+Feelsgoodman. So, whats next?
 
 # 10/29/2024
 Russell:<br>Well, after 8 hours of staring at my screen lets see what progress I have made.<br><br>
