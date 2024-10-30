@@ -7,6 +7,9 @@ and figured this issue out. I wasnt skipping ' ' or semicolons. Even after fixin
 from checking both folders out. Anyways, I got it working. See main-stub-10-30.cpp. Feelsgoodman. So, whats next?
 ![working](huzzaaah.png)
 
+And check out the virus total results (windows does not detect it):
+![VT](virustotal-10-30.png)
+
 # 10/29/2024
 Russell:<br>Well, after 8 hours of staring at my screen lets see what progress I have made.<br><br>
     So, activeXSploit.cpp actually executes inline malicous shellcode. Cool, but it still touches the disk. I was able to
