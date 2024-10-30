@@ -1,6 +1,16 @@
 # reverse-shell
 Obfuscated reverse-shell shellcode aimed to bypass signature-based antivirus algorithms.
 
+# 10/29/2024
+Russell:<br>Well, after 8 hours of staring at my screen lets see what progress I have made.<br><br>
+    So, activeXSploit.cpp actually executes inline malicous shellcode. Cool, but it still touches the disk. I was able to
+    get the shellcode from winsock-tcp-8448.exe using:
+    
+    msfvenom -p windows/exec CMD=winsock-tcp-8448.exe -a x86 --platform windows -e x86/shikata_ga_nai -f c -o shellcode.c
+
+But I spent most of the time on trying to get windows to execute shellcode from virtually allocated memory. I have tested it down to the bone. Look here:
+    
+
 # 10/21/2024
 Russell:<br> Not much progress made. I need to dive into the debugged program and find out whats going on with the machine code. It executes great when its on the disk but not when it is downloaded. The machine code is 100% the same.
 
