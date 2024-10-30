@@ -4,7 +4,7 @@ Obfuscated reverse-shell shellcode aimed to bypass signature-based antivirus alg
 # 10/30/2024
 Russell:<br>Huzzzaaaaahhhh! I have finally got the malicious payload to execute! It turns out a few of the shellcode bytes had been deformed from converting from hex string to hex bytes. I manually compared each byte from the debugger
 and figured this issue out. I wasnt skipping ' ' or semicolons. Even after fixing this, the executable would not function. But when I moved this executable to another folder it worked. This is very strange because I excluded microsoft defender 
-from checking both folders out. Anyways, I got it working. See main-stub-10-30.cpp.
+from checking both folders out. And when I removed both exclusions from windows security- no difference was made. The trojan can be executed from one directory but not another. Why? Anyways, I got it working. See main-stub-10-30.cpp.
 ![working](huzzaaah.png)
 
 And check out the virus total results (windows does not detect it):
