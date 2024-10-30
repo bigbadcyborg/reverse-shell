@@ -10,7 +10,8 @@ from checking both folders out. Anyways, I got it working. See main-stub-10-30.c
 And check out the virus total results (windows does not detect it):
 ![VT](virustotal-10-30.png)
 
-Feelsgoodman. So, whats next?
+Feelsgoodman. So, whats next? Well, removing any variables or strings containing wording that may appear to relate to malicious activity. For example, I can open the .exe in notepad and see several instances of the word "shellcode."
+Surely by doing this we can lower the detections on virustotal, right?
 
 # 10/29/2024
 Russell:<br>Well, after 8 hours of staring at my screen lets see what progress I have made.<br><br>
