@@ -3,7 +3,7 @@ Obfuscated reverse-shell shellcode aimed to bypass signature-based antivirus alg
 
 # 10/30/2024
 Russell:<br>Huzzzaaaaahhhh! I have finally got the stub to execute! It turns out a few of the shellcode bytes had been deformed from converting from hex string to hex bytes. I manually compared each byte from the debugger
-and figured this issue out. I wasnt skipping ' ' or semicolons. Even after fixing this, the executable would not function. But when I moved this executable to another folder it worked. This is very strange because I excluded microsoft defender 
+and figured this issue out. I call this the two-finger brute-force method. It wasnt skipping ' ' or semicolons. Even after fixing this, the executable would not function. But when I moved this executable to another folder it worked. This is very strange because I excluded microsoft defender 
 from checking both folders out. And when I removed both exclusions from windows security- no difference was made. The trojan can be executed from one directory but not another. Why? Executing the stub but with obfuscated calc.exe code works fine in all directories. So, there must be some kind of firewall detecting the malicous code? But not in some folders? I need to investigate this further. Anyways, I got it working. See main-stub-10-30.cpp.
 ![working](huzzaaah.png)
 
