@@ -11,7 +11,7 @@ from checking both folders out. And when I removed both exclusions from windows 
 And check out the virus total results (windows does not detect it):
 ![VT](virustotal-10-30.png)
 
-The file that the stub downloads goes completely undetected:
+The encrypted shellcode file that the stub downloads goes completely undetected:
 ![VT1](encrypted-raw-ss.png)
 
 Feelsgoodman. So, whats next? Well, removing any variables or strings containing wording that may appear to relate to malicious activity. For example, I can open the .exe in notepad and see several instances of the word "shellcode."
