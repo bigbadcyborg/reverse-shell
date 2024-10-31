@@ -1,6 +1,9 @@
 # reverse-shell
 Obfuscated reverse-shell shellcode aimed to bypass signature-based antivirus algorithms.
 
+# 10/31/2024
+Russell:<br> One idea to bring better the virustotal score is to have the user download a program called "decrypt-stub.ps1." This program would then download the encrypted stub, decrypt it, and then execute it. The stub would then download the encrypted shellcode, decrypt it, then execute it. 
+
 # 10/30/2024
 Russell:<br>Huzzzaaaaahhhh! I have finally got the stub to execute! It turns out a few of the shellcode bytes had been deformed from converting from hex string to hex bytes. I manually compared each byte from the debugger
 and figured this issue out: ![two-fingers](10-30-ss.png). 
