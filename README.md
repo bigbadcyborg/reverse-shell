@@ -6,7 +6,7 @@ Russell:<br> We should look into the virustotal alerts so we can better understa
 
 Once the .ps1 is converted to .exe, this program would then download the encrypted stub, decrypt it, and then execute it. The stub would then download the encrypted shellcode, decrypt it, then execute the reverse shell payload.
 
-Update: It was an idea. but looking back- I think there are better ways to go about this.
+Update: It was an idea. but looking back- I think there are better ways to go about this. Check out https://www.youtube.com/watch?v=vq6wNGYzdDE&ab_channel=JohnHammond
 
 # 10/30/2024
 Russell:<br>Huzzzaaaaahhhh! I have finally got the stub to execute! It turns out a few of the shellcode bytes had been deformed from converting from hex string to hex bytes. I manually compared each byte from the debugger
