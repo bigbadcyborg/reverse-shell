@@ -1,5 +1,5 @@
 # reverse-shell
-Obfuscated reverse-shell shellcode aimed to bypass signature-based antivirus algorithms.
+Obfuscated reverse-shell shellcode aimed to bypass signature-based antivirus algorithms. 
 
 # 10/31/2024
 Russell:<br> We should look into the virustotal alerts so we can better understand why and what is being detected within the stub. <br><br>One idea to better the virustotal score is to have the user download a program called "decrypt-stub.ps1." Once the .ps1 file is made then we can encrypt it to base64 (using https://gchq.github.io/CyberChef/) and then convert that to a .exe by using the software called "Win-PS2EXE". Then, the new .exe should be tested on virustotal.
