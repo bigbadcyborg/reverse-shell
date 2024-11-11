@@ -2,9 +2,9 @@
 Obfuscated reverse-shell shellcode aimed to bypass signature-based antivirus algorithms. 
 
 # 10/31/2024
-Russell:<br> We should look into the virustotal alerts so we can better understand why and what is being detected within the stub. <br><br>One idea to better the virustotal score is to have the user download a program called "decrypt-stub.ps1." Once the .ps1 file is made then we can encrypt it to base64 (using https://gchq.github.io/CyberChef/) and then convert that to a .exe by using the software called "Win-PS2EXE". Then, the new .exe should be tested on virustotal.
+Russell:<br> We should look into the virustotal alerts so we can better understand why and what is being detected within the stub. ~~<br><br>One idea to better the virustotal score is to have the user download a program called "decrypt-stub.ps1." Once the .ps1 file is made then we can encrypt it to base64 (using https://gchq.github.io/CyberChef/) and then convert that to a .exe by using the software called "Win-PS2EXE". Then, the new .exe should be tested on virustotal.
 
-Once the .ps1 is converted to .exe, this program would then download the encrypted stub, decrypt it, and then execute it. The stub would then download the encrypted shellcode, decrypt it, then execute the reverse shell payload.
+Once the .ps1 is converted to .exe, this program would then download the encrypted stub, decrypt it, and then execute it. The stub would then download the encrypted shellcode, decrypt it, then execute the reverse shell payload.~~
 
 Update: It was an idea. but looking back- I think there are better ways to go about this. Check out https://www.youtube.com/watch?v=vq6wNGYzdDE&ab_channel=JohnHammond
 
