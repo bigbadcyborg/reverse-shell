@@ -2,7 +2,7 @@
 Obfuscated reverse-shell shellcode aimed to bypass signature-based antivirus algorithms. 
 
 # 11/18/2024
-![Screenshot 2024-11-05 110237.png]
+![SS](Screenshot 2024-11-05 110237.png)
 
 TODO: research polymorphic encryption
 
