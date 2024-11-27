@@ -63,7 +63,7 @@ int main(void) {
     }
     data[totalBytesRead] = '\0';
 	
-	// Print decrypted data
+    // Print encrypted data
     printf("encrypted data:\n%s\n", data);
 
     // Close handles
