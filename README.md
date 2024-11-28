@@ -3,7 +3,7 @@ Obfuscated reverse-shell shellcode aimed to bypass signature-based antivirus alg
 
 # 11/28/2024
 Russell:<br>
-Check out some obfuscation methods:
+Ssome obfuscation methods to research:<br>
 www.youtube.com/watch?v=xNhQMwC0BLo&ab_channel=NullByte
 https://github.com/Ekultek/Graffiti
 
