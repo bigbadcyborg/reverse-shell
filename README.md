@@ -1,5 +1,33 @@
 # reverse-shell
-Obfuscated reverse-shell shellcode aimed to bypass signature-based antivirus algorithms. 
+Obfuscated reverse-shell shellcode aimed to bypass signature-based antivirus algorithms.
+
+# 11/28/2024
+Russell:<br>
+Check out some obfuscation methods:
+www.youtube.com/watch?v=xNhQMwC0BLo&ab_channel=NullByte
+https://github.com/Ekultek/Graffiti
+
+https://github.com/mhaskar/DNSStager
+
+https://github.com/Tsuyoken/ImgBackdoor
+
+https://github.com/NUL0x4C/GP
+
+https://github.com/De3vil/HtmlSmuggling
+
+https://github.com/HugoJH/HideIntoPNG
+
+https://github.com/dogematti/Steganography-hidden-payload
+
+https://github.com/machine1337/Fuddropper
+
+https://github.com/powerboat9/payload
+
+https://github.com/Romiiis/Digital-steganography
+
+https://github.com/david-crow/white-text
+
+https://github.com/Michesels/Pure-Crypter-ADVANCED-INJECTION-TECHNOLOGY-64BIT-32BIT-Anti-Delete
 
 # 11/18/2024
 ![SS](Screenshot-2024-11-05-110237.png)
