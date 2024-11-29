@@ -1,6 +1,12 @@
 # reverse-shell
 Obfuscated reverse-shell shellcode aimed to bypass signature-based antivirus algorithms.
 
+# 11/29/2024
+Russell:<br>
+    uploaded folder 11-29
+    - this folder contains crypter.c which encrypts calc.exe shellcode
+    - this folder contains buff-stub.c which decrypts and copys byte-by-byte
+
 # 11/28/2024
 Russell:<br>
 Some obfuscation methods to research:<br>
