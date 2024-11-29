@@ -3,9 +3,9 @@ Obfuscated reverse-shell shellcode aimed to bypass signature-based antivirus alg
 
 # 11/29/2024
 Russell:<br>
-    uploaded folder 11-29
-    - this folder contains crypter.c which encrypts calc.exe shellcode
-    - this folder contains buff-stub.c which decrypts and copys byte-by-byte
+    uploaded folder 11-29 <br>
+    - this folder contains crypter.c which encrypts calc.exe shellcode <br>
+    - this folder contains buff-stub.c which decrypts and copys byte-by-byte <br>
 
 # 11/28/2024
 Russell:<br>
