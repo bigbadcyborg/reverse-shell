@@ -4,7 +4,7 @@ Obfuscated reverse-shell shellcode aimed to bypass signature-based antivirus alg
 # 11/30/2024
 Russell:<br>
     Here is a flowchart of the reverse shell process. We still need to do more research on obfuscation methods because this output is easily detected by AV.
-    ![flowchart-ss.png]
+    ![fc](flowchart-ss.png)
 
 # 11/29/2024
 Russell:<br>
