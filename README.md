@@ -2,7 +2,7 @@
 Obfuscated reverse-shell shellcode aimed to bypass signature-based antivirus algorithms.
 # 12/1/2024
 Russell:<br>
-Uploaded folders: download, encapsulate, and obfuscate. These are my final revisions for this encapslated+obfuscated reverse-shell project. The other team members will be uploading their obfuscation contributions to this repository before midnight.
+Uploaded folders:<br> download, encapsulate, and obfuscate.<br>These are my final revisions for this encapslated+obfuscated reverse-shell project. The other team members will be uploading their obfuscation contributions to this repository before midnight.
 
 # 11/30/2024
 Russell:<br>
