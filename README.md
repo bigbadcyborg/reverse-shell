@@ -13,7 +13,7 @@ Russell:<br>
 Russell:<br>
     uploaded folder 11-29 <br>
     - this folder contains crypter.c which encrypts calc.exe shellcode <br>
-    - this folder contains buff-stub.c which decrypts and copys byte-by-byte before executing the shellcode <br>
+    - this folder contains buff-stub.c which decrypts and copies byte-by-byte before executing the shellcode <br>
 
 # 11/28/2024
 Russell:<br>
