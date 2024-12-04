@@ -5,7 +5,7 @@ Obfuscated reverse-shell shellcode aimed to bypass signature-based antivirus alg
  Check out the demo here: https://youtu.be/QOpDjsafkcI    <br>
  If I had more time on this project this is what I would do:<br>
      - Use custom payload (44kb compressed to less?)<br>
-     - decrypt, re-allocate, and execute the payload block-by-block (or byte-by-byte if possible)
+     - decrypt, re-allocate, and execute the payload block-by-block (or byte-by-byte if possible) instead of executing the entire decrypted payload at once.
 # 12/1/2024
 Russell:<br>
 Uploaded folders:<br> download, encapsulate, and obfuscate.<br>These are my final revisions for this encapslated+obfuscated reverse-shell project. The other team members will be uploading their obfuscation contributions to this repository before midnight.
