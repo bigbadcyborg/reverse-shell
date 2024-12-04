@@ -6,7 +6,7 @@ Obfuscated reverse-shell shellcode aimed to bypass signature-based antivirus alg
  If I had more time on this project this is what I would do:<br>
      - Use custom payload (44kb compressed to less?)<br>
      - Use Diffie-Hellman technique to encrypt/decrypt the key to our ceasar cipher ecryption/decryption method.
-     - make the stub decrypt, re-allocate, and execute the payload block-by-block (or byte-by-byte if possible) instead of executing the entire decrypted payload at once.
+     - make the stub decrypt, re-allocate, and execute the payload block-by-block (or byte-by-byte if possible) instead of executing the entire decrypted payload at once. This way, we could execute portions of the code before executing pointless code before executing more of the payload, repetitively.
 # 12/1/2024
 Russell:<br>
 Uploaded folders:<br> download, encapsulate, and obfuscate.<br>These are my final revisions for this encapslated+obfuscated reverse-shell project. The other team members will be uploading their obfuscation contributions to this repository before midnight.
