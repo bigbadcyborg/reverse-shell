@@ -5,8 +5,8 @@ Obfuscated reverse-shell shellcode aimed to bypass signature-based antivirus alg
  Check out the demo here: https://youtu.be/QOpDjsafkcI    <br>
  If I had more time on this project this is what I would do:<br>
      - Use custom payload (44kb compressed to less?)<br>
-     - store downloaded payload directly into executable memory (no need to copy it twice)
-     - Use Diffie-Hellman technique to encrypt/decrypt the key to our ceasar cipher encryption/decryption method.
+     - store downloaded payload directly into executable memory (no need to copy it twice)<br>
+     - Use Diffie-Hellman technique to encrypt/decrypt the key to our ceasar cipher encryption/decryption method.<br>
      - make the stub decrypt, re-allocate, and execute the payload block-by-block (or byte-by-byte if possible) instead of executing the entire decrypted payload at once. This way, we could execute portions of the code before executing pointless code before executing more of the payload, repetitively.
 # 12/1/2024
 Russell:<br>
