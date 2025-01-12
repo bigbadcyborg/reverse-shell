@@ -9,6 +9,7 @@ Obfuscated reverse-shell shellcode aimed to bypass signature-based antivirus alg
      - Use Diffie-Hellman technique to encrypt/decrypt the key to our ceasar cipher encryption/decryption method.<br>
      - make the stub decrypt, re-allocate, and execute the payload block-by-block (or byte-by-byte if possible) instead of executing the entire decrypted payload at once. This way, we could execute portions of the code before executing pointless code before executing more of the payload, repetitively.
      <br>- Use homomorphic encryption methods instead?
+     <br>- Look into tokenization/data masking methods?
 # 12/1/2024
 Russell:<br>
 Uploaded folders:<br> download, encapsulate, and obfuscate.<br>These are my final revisions for this encapslated+obfuscated reverse-shell project. The other team members will be uploading their obfuscation contributions to this repository before midnight.
