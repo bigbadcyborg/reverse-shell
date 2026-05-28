@@ -1,5 +1,5 @@
 # reverse-shell
-Obfuscated reverse-shell shellcode aimed to bypass signature-based antivirus algorithms.
+Obfuscated reverse-shell shellcode aimed to bypass signature-based antivirus algorithms. Note that this repo is for educational purposes ONLY.
 # 12/4/2024
  Russell:<br>
  Check out the demo here: https://youtu.be/QOpDjsafkcI    <br>
